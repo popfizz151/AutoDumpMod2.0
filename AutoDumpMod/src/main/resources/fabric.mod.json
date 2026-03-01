@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "autodump",
+  "version": "1.0.0",
+  "name": "AutoDump",
+  "description": "Automatically dumps inventory and resumes mining.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autodump.AutoDump"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
